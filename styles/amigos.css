@@ -1,0 +1,12 @@
+body{
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.image{
+    width: 150px;
+    border-radius: 15%;
+}
+
+#name-box{
+    height: 30px;
+}
