@@ -1,7 +1,6 @@
 body {
    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
       Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-   background-color: #02cad4;
 }
 
 nav {
@@ -9,14 +8,15 @@ nav {
    color: #fff;
 }
 
-.container {
-   display: flex;
+main{
+   background-color: #02cad4;
+   padding: 50px 0px;
+}
+
+.contenedor {
    justify-content: center;
-   weigth: "70%";
-   height: 100vh;
-   margin-top: 50px;
-   margin-bottom: 50px;
-   padding: 50px 50px;
+   font-weight: "70%";
+   padding: 50px 15px;
    border: 2px solid rgba(0, 0, 0, 0.9);
    border-radius: 10px;
    background-image: url("https://p.w3layouts.com/demos/aug-2016/13-08-2016/easy_resume/web/images/bg.png");
@@ -33,7 +33,34 @@ p {
    line-height: 1.5;
 }
 
+.image{
+   width: 100%;
+   border-radius: 15%;
+}
+
+#name-box{
+   max-height: 30px;
+}
+
 footer {
    background-color: #1f1f1f;
    color: #fff;
+}
+
+@media (min-width:576px){
+   .contenedor{
+      padding: 50px 25px;
+   }
+}
+
+@media (min-width:1200px){
+   .image{
+      border-radius: 15% 0% 0% 15%;
+   }
+}
+
+@media (min-width:1400px){
+   .image{
+      border-radius: 15%;
+   }
 }
