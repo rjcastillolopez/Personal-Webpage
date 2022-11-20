@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-body{
-    font-family: "Source Sans Pro", sans-serif;
-}
-
-.image{
-    width: 150px;
-    border-radius: 15%;
-}
-
-#name-box{
-    height: 30px;
-}
-=======
 body {
    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
       Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
@@ -24,9 +10,8 @@ nav {
 }
 
 .container {
-   display: flex;
    justify-content: center;
-   weigth: "70%";
+   font-weight: "70%";
    height: 100vh;
    margin-top: 50px;
    margin-bottom: 50px;
@@ -51,4 +36,3 @@ footer {
    background-color: #1f1f1f;
    color: #fff;
 }
->>>>>>> 72e882f34dedbe8416c5055768efc8565159b28e
