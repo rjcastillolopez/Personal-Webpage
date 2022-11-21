@@ -7,10 +7,9 @@ body {
 nav {
    background-color: #ec407a;
    color: #fff;
-   height: 70px;
 }
 .navbar-nav {
-   padding: 20px;
+   padding: 11px 20px;
 }
 .nav-link {
    margin-left: 10px;
@@ -22,7 +21,6 @@ nav {
 /* Main content */
 .main-container {
    width: 80%;
-   height: 100vh;
    margin: 0 auto;
    margin-top: 50px;
    margin-bottom: 50px;
