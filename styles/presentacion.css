@@ -3,17 +3,27 @@ body {
       Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
    background-color: #02cad4;
 }
-
+/* Nav bar */
 nav {
    background-color: #ec407a;
    color: #fff;
+   height: 70px;
 }
-
-.container {
-   display: flex;
-   justify-content: center;
-   weigth: "70%";
+.navbar-nav {
+   padding: 20px;
+}
+.nav-link {
+   margin-left: 10px;
+   margin-right: 10px;
+}
+.nav-link {
+   color: #fff;
+}
+/* Main content */
+.main-container {
+   width: 80%;
    height: 100vh;
+   margin: 0 auto;
    margin-top: 50px;
    margin-bottom: 50px;
    padding: 50px 50px;
@@ -25,15 +35,59 @@ nav {
    background-size: cover;
    background-attachment: scroll;
 }
-
+.img-perfil {
+   width: 250px;
+   height: 250px;
+   border-radius: 50%;
+   border: 5px solid #02cad4;
+   margin: 0 50px 0 100px;
+}
+.datos-container {
+   height: 20vh;
+}
+h1,
+h2 {
+   color: #fff;
+}
 p {
    color: #fff;
    font-size: 18px;
    font-weight: 200;
    line-height: 1.5;
 }
-
+span {
+   color: #f3286c;
+}
+.datos {
+   width: 375px;
+   flex-direction: column;
+}
+@media screen and (max-width: 1200px) {
+   .main-container {
+      height: auto;
+   }
+   .img-perfil {
+      width: 200px;
+      height: 200px;
+      margin: 0 0 35px 0;
+   }
+}
+/* Footer */
 footer {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   height: 90px;
+   padding: 5px;
    background-color: #1f1f1f;
    color: #fff;
+}
+footer p {
+   font-size: 16px;
+   font-weight: 200;
+}
+.social-media {
+   display: flex;
+   justify-content: center;
 }
