@@ -15,10 +15,8 @@ nav {
    margin-left: 10px;
    margin-right: 10px;
 }
-.nav-link,
-h1,
-h2 {
-   color: rgb(255, 255, 255);
+.nav-link {
+   color: #fff;
 }
 /* Main content */
 .main-container {
@@ -36,7 +34,7 @@ h2 {
    height: 80vh;
 }
 .img-container {
-   width: 45%;
+   width: 60%;
 }
 img {
    width: 100%;
@@ -46,7 +44,11 @@ img {
    flex-direction: column;
 }
 h1 {
+   color: #fff;
    font-size: 50px;
+}
+h2 {
+   color: #fff;
 }
 @media screen and (max-width: 1200px) {
    .main-container {
