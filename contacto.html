@@ -13,7 +13,127 @@
 </head>
 
 <body>
+   <!DOCTYPE html>
+   <html lang="en">
 
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="./styles/contacto.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <title>Login</title>
+   </head>
+
+   <body style="background-color: #000000;">
+
+      <nav class="navbar navbar-expand-lg">
+         <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+               aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+               <ul class="navbar-nav mb-2 mb-lg-0">
+                  <li class="nav-item">
+                     <a class="nav-link" href="./home.html" style="color: #fff;">Home</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="./presentacion.html" style="color: #fff;">Presentación</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="./familia.html" style="color: #fff;">Familia</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="./amigos.html" style="color: #fff;">Amigos</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="./estudios.html" style="color: #fff;">Estudios</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="./contacto.html" style="color: #fff;">Contacto</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+
+      <div class="container d-flex">
+         <div class="row">
+
+
+            <div class="col vw-75 wh-75 "><iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3106.278875347463!2d-77.05845558438448!3d38.871860956053546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b6df29ed2c27%3A0xaf83d0f8c013532f!2sEl%20Pent%C3%A1gono!5e0!3m2!1ses-419!2spe!4v1669055757139!5m2!1ses-419!2spe"
+                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+            <div class="col">
+
+               <h2 class="fw-bold text-center pt-5 mb-5" style="color: #fff;"> Formulario de contacto </h2>
+
+               <!--- Form Space -->
+
+               <form action="#">
+
+                  <div class="mb-4" style="color: #fff;">
+                     <label for="emailInp" class="form-label">Correo electrónico</label>
+                     <input type="email" class="form-control" name="email" placeholder="Ingrese su correo electrónico"
+                        required>
+                  </div>
+
+                  <div class="mb-4" style="color: #fff;">
+                     <label for="nameInp" class="form-label">Nombre</label>
+                     <input type="text" class="form-control" name="name" placeholder="Ingrese su Nombre" required>
+                  </div>
+
+                  <div class="mb-4" style="color: #fff;">
+                     <label for="lnameInp" class="form-label">Apellidos</label>
+                     <input type="text" class="form-control" name="lnameInp" placeholder="Ingrese sus apellidos"
+                        required>
+                  </div>
+
+                  <div class="mb-4" style="color: #fff;">
+                     <label for="cellphoneInp" class="form-label">Teléfono móvil</label>
+                     <input type="text" class="form-control" name="cellphoneInp"
+                        placeholder="Ingrese su número de celular" required>
+                  </div>
+
+                  <div class="mb-4" style="color: #fff;">
+                     <label for="phoneInp" class="form-label">Teléfono fijo</label>
+                     <input type="text" class="form-control" name="phoneNumber"
+                        placeholder="Ingrese su número de teléfono fijo" required>
+                  </div>
+
+                  <div class="mb-4" style="color: #fff;">
+                     <label for="menssage" class="form-label">Mensaje</label>
+                     <textarea class="form-control" name="" id="menssage" name="message" rows="5"
+                        maxlength="250"></textarea>
+                  </div>
+
+                  <div class="mb-4" style="color: #fff;">
+                     <input type="checkbox" class="form-check-input" name="checkInp" required>
+                     <label for="checkInp" class="">Acepto recibir información adicional al correo
+                        previamente ingresado</label>
+                  </div>
+
+                  <div class="d-grid">
+                     <button type="submit" class="btn btn-primary"> Enviar información</button>
+                  </div>
+
+               </form>
+
+
+            </div>
+         </div>
+      </div>
+
+
+      <script src="bootstrap.bundle.min.js"></script>
+
+   </body>
+
+   </html>
 </body>
 
 </html>

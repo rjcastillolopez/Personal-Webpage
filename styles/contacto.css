@@ -1,0 +1,33 @@
+body {
+
+    background-image: url("https://p.w3layouts.com/demos/aug-2016/13-08-2016/easy_resume/web/images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+nav {
+    background-color: #ec407a;
+    color: #fff;
+}
+
+.navbar-nav {
+    padding: 11px 20px;
+}
+
+.nav-link {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+iframe {
+    margin-top: 150px;
+}
+
+input {
+    color: #fff;
+}
