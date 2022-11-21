@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
    <meta charset="UTF-8" />
@@ -9,24 +9,235 @@
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
    <link rel="stylesheet" href="./styles/reset.css" />
    <link rel="stylesheet" href="./styles/familia.css" />
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
    <title>Familia</title>
 </head>
 
 <body>
-   <nav>
-      Nav
-   </nav>
+   <!--- Nav bar -->
+   <header>
+      <nav class="navbar navbar-expand-lg">
+         <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+               aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+               <ul class="navbar-nav mb-2 mb-lg-0">
+                  <li class="nav-item">
+                     <a class="nav-link" href="./home.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="./presentacion.html">Presentación</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="./familia.html">Familia</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="./amigos.html">Amigos</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="./estudios.html">Estudios</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="./contacto.html">Contacto</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+   </header>
 
-   <div class="container">
-      <p>
-         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptatem culpa saepe laboriosam! Ducimus
-         quae maxime deleniti? Voluptatibus quod tenetur porro a. Provident maiores ea suscipit rem pariatur ipsum
-         incidunt.
-      </p>
-   </div>
+   <main>
+      <div class="mx-3 mx-sm-4 mx-md-5 mx-lg-5">
+         <div class="contenedor mx-sm-2 mx-md-1 mx-lg-4" id="content">
+            <div class="row">
+               <div class="col-12 justify-content-center" id="title">
+                  <p class="mb-3 mb-sm-4 mb-md-5 text-center fs-1 fw-bold text-uppercase">Mi Familia</p>
+               </div>
+               <div class="col-12" id="friends">
+                  <div class="row g-3">
+                     <div class="col-12 col-md-6 col-xxl-4" id="friend">
+                        <div class="mx-2 mx-sm-3 mx-md-5 my-3" id="friend-box">
+                           <div class="row g-3">
+                              <div class="col-12 col-xl-6 col-xxl-12">
+                                 <div class="d-flex justify-content-center align-items-center h-100" id="image-box">
+                                    <picture>
+                                       <source media="(min-width:1400px)" srcset="./assets/imagenes-familia/abuela.png">
+                                       <source media="(min-width:1200px)" srcset="./assets/imagenes-familia/abuela-L.png">
+                                       <img class="image rounded-xl-start" src="./assets/imagenes-familia/abuela.png" alt="Abuela">
+                                    </picture>
+                                 </div>
+                              </div>
+                              <div class="col-12 col-xl-6 col-xxl-12">
+                                 <div class="" id="name-box">
+                                    <div class="mb-0">
+                                       <p class="fw-bold text-center fs-4">Abuela</p>
+                                    </div>
+                                 </div>
+                                 <div class="mt-1" id="text-box">
+                                    <div class="">
+                                       <p class="text-center fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sequi? Aut itaque reprehenderit rem nam, veritatis tenetur quae praesentium excepturi quod. Ea labore molestiae molestias dolorum cupiditate? Sapiente, sint temporibus?</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-12 col-md-6 col-xxl-4" id="friend">
+                        <div class="mx-2 mx-sm-3 mx-md-5 my-3" id="friend-box">
+                           <div class="row g-3">
+                              <div class="col-12 col-xl-6 col-xxl-12">
+                                 <div class="d-flex justify-content-center align-items-center h-100" id="image-box">
+                                    <picture>
+                                       <source media="(min-width:1400px)" srcset="./assets/imagenes-familia/abuelo.png">
+                                       <source media="(min-width:1200px)" srcset="./assets/imagenes-familia/abuelo-L.png">
+                                       <img class="image rounded-xl-start" src="./assets/imagenes-familia/abuelo.png" alt="Abuelo">
+                                    </picture>
+                                 </div>
+                              </div>
+                              <div class="col-12 col-xl-6 col-xxl-12">
+                                 <div class="" id="name-box">
+                                    <div class="mb-0">
+                                       <p class="fw-bold text-center fs-4">Abuelo</p>
+                                    </div>
+                                 </div>
+                                 <div class="mt-1" id="text-box">
+                                    <div class="">
+                                       <p class="text-center fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sequi? Aut itaque reprehenderit rem nam, veritatis tenetur quae praesentium excepturi quod. Ea labore molestiae molestias dolorum cupiditate? Sapiente, sint temporibus?</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-12 col-md-6 col-xxl-4" id="friend">
+                        <div class="mx-2 mx-sm-3 mx-md-5 my-3" id="friend-box">
+                           <div class="row g-3">
+                              <div class="col-12 col-xl-6 col-xxl-12">
+                                 <div class="d-flex justify-content-center align-items-center h-100" id="image-box">
+                                    <picture>
+                                       <source media="(min-width:1400px)" srcset="./assets/imagenes-familia/madre.png">
+                                       <source media="(min-width:1200px)" srcset="./assets/imagenes-familia/madre-L.png">
+                                       <img class="image rounded-xl-start" src="./assets/imagenes-familia/madre.png" alt="Madre">
+                                    </picture>
+                                 </div>
+                              </div>
+                              <div class="col-12 col-xl-6 col-xxl-12">
+                                 <div class="" id="name-box">
+                                    <div class="mb-0">
+                                       <p class="fw-bold text-center fs-4">Madre</p>
+                                    </div>
+                                 </div>
+                                 <div class="mt-1" id="text-box">
+                                    <div class="">
+                                       <p class="text-center fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sequi? Aut itaque reprehenderit rem nam, veritatis tenetur quae praesentium excepturi quod. Ea labore molestiae molestias dolorum cupiditate? Sapiente, sint temporibus?</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-12 col-md-6 col-xxl-4" id="friend">
+                        <div class="mx-2 mx-sm-3 mx-md-5 my-3" id="friend-box">
+                           <div class="row g-3">
+                              <div class="col-12 col-xl-6 col-xxl-12">
+                                 <div class="d-flex justify-content-center align-items-center h-100" id="image-box">
+                                    <picture>
+                                       <source media="(min-width:1400px)" srcset="./assets/imagenes-familia/tia.png">
+                                       <source media="(min-width:1200px)" srcset="./assets/imagenes-familia/tia-L.png">
+                                       <img class="image rounded-xl-start" src="./assets/imagenes-familia/tia.png" alt="Tía">
+                                    </picture>
+                                 </div>
+                              </div>
+                              <div class="col-12 col-xl-6 col-xxl-12">
+                                 <div class="" id="name-box">
+                                    <div class="mb-0">
+                                       <p class="fw-bold text-center fs-4">Tía</p>
+                                    </div>
+                                 </div>
+                                 <div class="mt-1" id="text-box">
+                                    <div class="">
+                                       <p class="text-center fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sequi? Aut itaque reprehenderit rem nam, veritatis tenetur quae praesentium excepturi quod. Ea labore molestiae molestias dolorum cupiditate? Sapiente, sint temporibus?</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-12 col-md-6 col-xxl-4" id="friend">
+                        <div class="mx-2 mx-sm-3 mx-md-5 my-3" id="friend-box">
+                           <div class="row g-3">
+                              <div class="col-12 col-xl-6 col-xxl-12">
+                                 <div class="d-flex justify-content-center align-items-center h-100" id="image-box">
+                                    <picture>
+                                       <source media="(min-width:1400px)" srcset="./assets/imagenes-familia/hermano.png">
+                                       <source media="(min-width:1200px)" srcset="./assets/imagenes-familia/hermano-L.png">
+                                       <img class="image rounded-xl-start" src="./assets/imagenes-familia/hermano.png" alt="Hermano">
+                                    </picture>
+                                 </div>
+                              </div>
+                              <div class="col-12 col-xl-6 col-xxl-12">
+                                 <div class="" id="name-box">
+                                    <div class="mb-0">
+                                       <p class="fw-bold text-center fs-4">Hermano</p>
+                                    </div>
+                                 </div>
+                                 <div class="mt-1" id="text-box">
+                                    <div class="">
+                                       <p class="text-center fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sequi? Aut itaque reprehenderit rem nam, veritatis tenetur quae praesentium excepturi quod. Ea labore molestiae molestias dolorum cupiditate? Sapiente, sint temporibus?</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-12 col-md-6 col-xxl-4" id="friend">
+                        <div class="mx-2 mx-sm-3 mx-md-5 my-3" id="friend-box">
+                           <div class="row g-3">
+                              <div class="col-12 col-xl-6 col-xxl-12">
+                                 <div class="d-flex justify-content-center align-items-center h-100" id="image-box">
+                                    <picture>
+                                       <source media="(min-width:1400px)" srcset="./assets/imagenes-familia/hermana.png">
+                                       <source media="(min-width:1200px)" srcset="./assets/imagenes-familia/hermana-L.png">
+                                       <img class="image rounded-xl-start" src="./assets/imagenes-familia/hermana.png" alt="Hermana">
+                                    </picture>
+                                 </div>
+                              </div>
+                              <div class="col-12 col-xl-6 col-xxl-12">
+                                 <div class="" id="name-box">
+                                    <div class="mb-0">
+                                       <p class="fw-bold text-center fs-4">Hermana</p>
+                                    </div>
+                                 </div>
+                                 <div class="mt-1" id="text-box">
+                                    <div class="">
+                                       <p class="text-center fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sequi? Aut itaque reprehenderit rem nam, veritatis tenetur quae praesentium excepturi quod. Ea labore molestiae molestias dolorum cupiditate? Sapiente, sint temporibus?</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </main>
 
    <footer>
-      © 2022 Copyright. All rights reserved | Designed by Students
+      <p>
+         © 2022 Copyright. All rights reserved | Designed by Students
+      </p>
+      <div class="social-media">
+         <a href="https://www.facebook.com/"><img height="40" width="40"
+               src="https://img.icons8.com/color/48/000000/facebook-new.png" /></a>
+         <a href="https://www.instagram.com/"><img height="40" width="40"
+               src="https://img.icons8.com/color/48/000000/instagram-new.png" /></a>
+         <a href="https://twitter.com/"><img height="40" width="40"
+               src="https://img.icons8.com/color/48/000000/twitter--v1.png" /></a>
+      </div>
    </footer>
 </body>
 
